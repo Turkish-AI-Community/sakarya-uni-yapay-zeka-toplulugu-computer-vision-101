@@ -2,3 +2,5 @@
 /DAY-3/Realtime-Car-Detection/video
 /DAY-3/Realtime-Car-Detection/yolov8n.pt
 /DAY-3/Visual-Music-App/music
+*.weights
+*.cfg
