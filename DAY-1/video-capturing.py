@@ -21,6 +21,16 @@ fgbg = cv.createBackgroundSubtractorMOG2(
     varThreshold=100
 )
 
+# Burada MOG2 background subtractor oluşturuluyor.
+# Bu algoritma şunu yapar:
+# Kameradan gelen görüntüleri zaman içinde izler.
+# “Normal” arka planı öğrenir.
+# Sonradan değişen pikselleri “hareket” olarak işaretler.
+# Yani sistem kendi kendine şu modeli kurar:
+# “Burası genelde sabit → background”
+# “Burası değişiyor → foreground (hareket)” 
+# Bu yüzden “stateful”dır, yani geçmişi tutar.
+
 kernel = cv.getStructuringElement(cv.MORPH_RECT, (1, 5))
 
 
@@ -48,6 +58,13 @@ def process(image, mode):
 
         # Background subtraction
         mask = fgbg.apply(image)
+        # Mevcut frame’i modele verir.
+        # Arka planla karşılaştırır.
+        # Bir binary maske üretir.
+        # Maske şu şekildedir:
+        # Beyaz (255) → hareket var
+        # Siyah (0) → arka plan
+        # Yani artık elimizde sadece hareketli bölgeler var.
 
         # Gürültü temizleme
         mask = cv.morphologyEx(mask, cv.MORPH_OPEN, kernel)
