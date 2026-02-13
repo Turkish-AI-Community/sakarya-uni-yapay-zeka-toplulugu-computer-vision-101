@@ -1,0 +1,23 @@
+# Dosya Tarayıcı (File Scanner) - Bağımlılıklar
+# =============================================
+
+# OpenCV - Görüntü işleme kütüphanesi
+# Kenar tespiti, perspektif düzeltme, görüntü iyileştirme için
+opencv-python>=4.5.0
+
+# Streamlit - Web arayüzü framework'ü
+# Hızlı ve kolay web uygulaması oluşturmak için
+streamlit>=1.20.0
+
+# NumPy - Sayısal hesaplama kütüphanesi
+# Matris işlemleri ve koordinat hesaplamaları için
+numpy>=1.19.0
+
+# Pillow - Python görüntü kütüphanesi
+# PDF oluşturma için alternatif yöntem olarak kullanılır
+Pillow>=8.0.0
+
+# img2pdf - Görüntüleri PDF'e dönüştürme
+# Yüksek kaliteli PDF çıktısı için
+img2pdf>=0.4.0
+

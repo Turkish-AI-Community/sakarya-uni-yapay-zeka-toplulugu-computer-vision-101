@@ -1,0 +1,21 @@
+# CLIP Image Analyzer - Bagimliliklar
+# ====================================
+
+# PyTorch - Derin ogrenme kutuphanesi
+# CLIP modeli PyTorch uzerinde calisir
+# GPU icin: https://pytorch.org/get-started/locally/
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Hugging Face Transformers - CLIP modeli icin
+# CLIPModel ve CLIPProcessor bu kutuphanede
+transformers>=4.20.0
+
+# Pillow - Goruntu isleme
+Pillow>=8.0.0
+
+# NumPy - Sayisal hesaplamalar
+numpy>=1.19.0
+
+# Streamlit - Web arayuzu
+streamlit>=1.20.0

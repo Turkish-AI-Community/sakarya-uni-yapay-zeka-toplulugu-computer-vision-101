@@ -1,0 +1,25 @@
+# Realtime Car Detection - Bagimliliklar
+# ========================================
+
+# Ultralytics - YOLOv8 modeli icin
+# Resmi YOLO implementasyonu
+ultralytics>=8.0.0
+
+# PyTorch - Derin ogrenme kutuphanesi
+# GPU icin: https://pytorch.org/get-started/locally/
+torch>=1.9.0
+torchvision>=0.10.0
+
+# OpenCV - Goruntu ve video isleme
+# Video okuma, frame islemleri
+opencv-python>=4.5.0
+
+# NumPy - Sayisal hesaplamalar
+numpy>=1.19.0
+
+# Streamlit - Web arayuzu
+streamlit>=1.20.0
+
+# Pillow - Goruntu isleme
+Pillow>=8.0.0
+

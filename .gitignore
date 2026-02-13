@@ -1,3 +1,4 @@
-yolov3.weights 
-yolov3.cfg
-coco.names
+/DAY-3/File-Scanner/img
+/DAY-3/Realtime-Car-Detection/video
+/DAY-3/Realtime-Car-Detection/yolov8n.pt
+/DAY-3/Visual-Music-App/music

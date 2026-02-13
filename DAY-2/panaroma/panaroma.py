@@ -62,6 +62,10 @@ if des1 is None or des2 is None or des3 is None:
 # -----------------------------
 bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
 
+# df binary descriptor
+# Hamming distance
+# crossCheck: iki yönlü eşleşme varsa tekini kabul ediyor
+
 matches12 = bf.match(des1, des2)
 matches23 = bf.match(des2, des3)
 
@@ -81,7 +85,11 @@ matches23 = sorted(matches23, key=lambda x: x.distance)
 # -----------------------------
 # Homography
 # -----------------------------
-def get_homography(matches, kpA, kpB):
+def get_homography(matches, kpA, kpB): # işin kalbi
+
+    # Outlier’ları eler
+    # En iyi perspektif matrisi bulur
+    # imgA → imgB koordinatlarına map eder.
 
     src_pts = np.float32(
         [kpA[m.queryIdx].pt for m in matches]
