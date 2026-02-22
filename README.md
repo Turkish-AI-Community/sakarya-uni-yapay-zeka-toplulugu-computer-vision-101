@@ -21,7 +21,13 @@ Bu repo, [**Sakarya Üniversitesi Yapay Zeka Topluluğu**](https://www.linkedin.
 ## 📚 İçerik
 
 <details>
-<summary><strong>📅 GÜN 1 - Görüntü İşleme Temelleri</strong></summary>
+<summary>
+    <strong>
+      <a href="https://www.youtube.com/watch?v=2CmuqgDOYMk" target="_blank">
+        📅 GÜN 1 - Görüntü İşleme Temelleri
+      </a>
+    </strong>
+  </summary>
 
 ### 📓 Notebook: `DAY-1/Comp-Vis-Day-1.ipynb`
 
@@ -96,7 +102,13 @@ Canlı kamera üzerinde farklı modlarla çalışma:
 </details>
 
 <details>
-<summary><strong>📅 GÜN 2 - Feature Detection & Object Detection</strong></summary>
+<summary>
+    <strong>
+      <a href="https://www.youtube.com/watch?v=aHACGV2rB40" target="_blank">
+        📅 GÜN 2 - Feature Detection & Object Detection
+      </a>
+    </strong>
+  </summary>
 
 ### 📓 Notebook: `DAY-2/Comp-Vis-Day-2.ipynb`
 
@@ -161,7 +173,13 @@ Bu günde öznitelik çıkarımı, nesne tespiti ve derin öğrenme temellerini 
 </details>
 
 <details>
-<summary><strong>📅 GÜN 3 - Uygulamalı Projeler</strong></summary>
+<summary>
+    <strong>
+      <a href="https://www.youtube.com/watch?v=kPxdpqQm3-o" target="_blank">
+        📅 GÜN 3 - Uygulamalı Projeler
+      </a>
+    </strong>
+  </summary>
 
 Üçüncü gün, öğrendiklerimizi gerçek dünya projelerine uyguluyoruz. Her proje kendi klasöründe detaylı README ile birlikte sunulmaktadır.
 
@@ -349,5 +367,5 @@ Bu proje eğitim amaçlı hazırlanmıştır. Özgürce kullanabilir ve gelişti
 ---
 
 <p align="center">
-  <strong>🚀 Happy Learning!</strong>
+  <strong>🚀 Bugününüz dününüz ile aynı olmasın!</strong>
 </p>
